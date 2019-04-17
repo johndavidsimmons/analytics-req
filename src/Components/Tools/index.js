@@ -47,12 +47,10 @@ const Google = () => (
   </div>
 );
 
-class Header extends Component {
+class Tools extends Component {
   render() {
     return (
       <div>
-        <h1>Web Analytics Standards</h1>
-        <h2>The Tools</h2>
         <Adobe />
         <Google />
       </div>
@@ -60,4 +58,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Tools;
