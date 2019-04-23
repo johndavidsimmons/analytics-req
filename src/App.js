@@ -8,13 +8,13 @@ import DataLayer from "./Components/DataLayer";
 
 import "./App.scss";
 
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter>
+        <HashRouter basename={process.env.PUBLIC_URL}>
           <Navigation />
           <Container>
             <Row>
@@ -31,7 +31,7 @@ class App extends Component {
               </Col>
             </Row>
           </Container>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     );
   }

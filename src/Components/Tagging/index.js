@@ -21,8 +21,8 @@ class Tagging extends Component {
           Primary buttons (and buttons that execute a non-navigation action)
           should contain a click tracking tag.{" "}
           <code>Channel:product:link text</code> is a generic guideline for the
-          value. For example, if the primary button below runs a calculation on
-          a purchase calculator on a Rocket Mortgage Page:
+          value. For example, a "tagged" primary button that runs a calculation
+          on a purchase calculator on a Rocket Mortgage Page would look like:
         </p>
         <Snippet code={taggedButton} />
         <h4 className="push">Automatic click tracking with Activity Map</h4>
