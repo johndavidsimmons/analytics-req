@@ -4,10 +4,10 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => (
   <Navbar bg="dark" variant="dark" fixed="top">
-    <Navbar.Brand href="/">Web Analytics Standards</Navbar.Brand>
+    <Navbar.Brand>Web Analytics Standards</Navbar.Brand>
     <Nav className="mr-auto">
-      <NavLink to="/" className="nav-link">
-        Overview
+      <NavLink to="/tools" className="nav-link">
+        Tools
       </NavLink>
       <NavDropdown title="Launch" id="launch-nav-dropdown">
         <NavLink to="/embed" className="dropdown-item">

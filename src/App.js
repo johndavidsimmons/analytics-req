@@ -20,7 +20,7 @@ class App extends Component {
             <Row>
               <Col sm={12}>
                 <Switch>
-                  <Route path="/" component={Tools} exact />
+                  <Route path="/tools" component={Tools} />
                   <Route path="/embed" component={Embed} />
                   <Route path="/tagging" component={Tagging} />
                   <Route path="/datalayer" component={DataLayer} />
