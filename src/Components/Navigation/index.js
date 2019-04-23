@@ -6,14 +6,14 @@ const Navigation = () => (
   <Navbar bg="dark" variant="dark" fixed="top">
     <Navbar.Brand>Web Analytics Standards</Navbar.Brand>
     <Nav className="mr-auto">
-      <NavLink to="/tools" className="nav-link">
-        Tools
+      <NavLink to="/analytics-req" className="nav-link">
+        Overview
       </NavLink>
       <NavDropdown title="Launch" id="launch-nav-dropdown">
-        <NavLink to="/embed" className="dropdown-item">
+        <NavLink to="/analytics-req/embed" className="dropdown-item">
           Embed
         </NavLink>
-        <NavLink to="/tagging" className="dropdown-item">
+        <NavLink to="/analytics-req/tagging" className="dropdown-item">
           Tagging
         </NavLink>
         <NavDropdown.Divider />
@@ -25,7 +25,7 @@ const Navigation = () => (
           Official Documentation
         </NavDropdown.Item>
       </NavDropdown>
-      <NavLink to="/datalayer" className="nav-link">
+      <NavLink to="/analytics-req/datalayer" className="nav-link">
         Data Layer
       </NavLink>
     </Nav>

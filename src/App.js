@@ -20,10 +20,13 @@ class App extends Component {
             <Row>
               <Col sm={12}>
                 <Switch>
-                  <Route path="/tools" component={Tools} />
-                  <Route path="/embed" component={Embed} />
-                  <Route path="/tagging" component={Tagging} />
-                  <Route path="/datalayer" component={DataLayer} />
+                  <Route path="/analytics-req" component={Tools} exact />
+                  <Route path="/analytics-req/embed" component={Embed} />
+                  <Route path="/analytics-req/tagging" component={Tagging} />
+                  <Route
+                    path="/analytics-req/datalayer"
+                    component={DataLayer}
+                  />
                 </Switch>
               </Col>
             </Row>
