@@ -44,7 +44,7 @@ class Tagging extends Component {
           </li>
         </ul>
         <p>
-          <strong>Note:</strong> Button elements with the attribute
+          <strong>Note:</strong> Button elements with the attribute{" "}
           <code>type="button"</code> will NOT be tracked by Activity Map. To
           track clicks on these elements you can replace{" "}
           <code>type="button"</code> with <code>role="button"</code> or{" "}
