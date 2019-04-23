@@ -14,19 +14,16 @@ class App extends Component {
   render() {
     return (
       <div>
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
           <Navigation />
           <Container>
             <Row>
               <Col sm={12}>
                 <Switch>
-                  <Route path="/analytics-req" component={Tools} exact />
-                  <Route path="/analytics-req/embed" component={Embed} />
-                  <Route path="/analytics-req/tagging" component={Tagging} />
-                  <Route
-                    path="/analytics-req/datalayer"
-                    component={DataLayer}
-                  />
+                  <Route path="/" component={Tools} exact />
+                  <Route path="/embed" component={Embed} />
+                  <Route path="/tagging" component={Tagging} />
+                  <Route path="/datalayer" component={DataLayer} />
                 </Switch>
               </Col>
             </Row>
