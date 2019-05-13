@@ -74,13 +74,14 @@ const Google = () => (
       utilize Google's advertising capabilities. We also use Google Analytics on
       internal sites because it generally requires less setup than Adobe
       Analytics. To use Google Analytics on your internal facing website, send
-      me email to digitaldatastrategy@quickenloans.com.
+      me email to <strong>digitaldatastrategy@quickenloans.com</strong>.
     </p>
     <h4>Accounts</h4>
     <p>
       A Google Account is required to access Google Analytics. You will need to
-      link your Quickenloans.com email address to this Google Account. You can
-      do this by adding your @quickenloans.com email address as an alernate
+      link your @quickenloans.com email address to this Google Account. You can
+      do this by adding your @quickenloans.com email address as an{" "}
+      <strong>alternate</strong>
       email address on your Google account. This can be done at{" "}
       <a href="https://myaccount.google.com/personal-info">
         https://myaccount.google.com/personal-info
