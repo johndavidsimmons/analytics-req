@@ -91,24 +91,6 @@ const Google = () => (
   </div>
 );
 
-const Accounts = () => (
-  <div>
-    <h3>Accounts</h3>
-    <p>
-      <strong>Adobe Analytics/Launch</strong>
-    </p>
-    <p>
-      An Adobe Experience Cloud ID is required to access Adobe Analytics and
-      Adobe Launch. If you need access to these tools please send an email to{" "}
-      <strong>digitaldatastrategy@quickenloans.com</strong> with your role and
-      which product you work on.
-    </p>
-    <p>
-      <strong>Google Analytics</strong>
-    </p>
-  </div>
-);
-
 class Tools extends Component {
   render() {
     return (
