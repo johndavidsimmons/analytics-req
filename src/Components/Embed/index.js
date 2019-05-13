@@ -3,7 +3,7 @@ import Snippet from "../Snippet";
 
 class Embed extends Component {
   render() {
-    const stagingCode = `<script src="//assets.adobedtm.com/launch-ENc379233258344e5ab0033464ce7e8d21-staging.min.js"></script>;`;
+    const stagingCode = `<script src="//assets.adobedtm.com/launch-ENc379233258344e5ab0033464ce7e8d21-staging.min.js" async></script>;`;
     const productionCode = stagingCode.replace("-staging", "");
     return (
       <div>

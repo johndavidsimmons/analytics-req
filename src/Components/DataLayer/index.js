@@ -42,7 +42,7 @@ const DataLayer = () => {
         <li>Page information such as URL or query parameters</li>
         <li>
           User information such as a username or unique ID (provided the user is
-          logged in.
+          logged in).
         </li>
         <li>
           Form information such as the loan purpose the user selected on a lead
