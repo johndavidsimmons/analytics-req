@@ -30,6 +30,18 @@ class Embed extends Component {
           <b>lack of</b> "-staging" flag in the file.
         </p>
         <Snippet code={productionCode} />
+        <h4 className="push">Video Tutorial</h4>
+        <div>
+          <iframe
+            title="embed tutorial video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/oToBytC9QDE"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          />
+        </div>
       </div>
     );
   }
